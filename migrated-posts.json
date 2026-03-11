@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2026-03-10-react-server-components",
+    "layout": "post",
+    "title": "Understanding React Server Components",
+    "date": "2026-03-10T00:00:00.000Z",
+    "category": "Frontend",
+    "author": "B-University"
+  },
+  {
+    "id": "2026-03-11-webcontainers",
+    "layout": "post",
+    "title": "The Magic of WebContainers",
+    "date": "2026-03-11T00:00:00.000Z",
+    "category": "Architecture",
+    "author": "B-University",
+    "tags": [
+      "webcontainer",
+      "nodejs",
+      "browser"
+    ]
+  }
+]
