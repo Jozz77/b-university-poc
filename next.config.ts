@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/(.*)',
+        output: 'export', // Tells Next.js to produce a static site
+        images: {
+          unoptimized: true, // Required because GitHub Pages doesn't support the default Image Optimization
+        },
         headers: [
           {
             key: 'Cross-Origin-Embedder-Policy',
@@ -19,6 +23,7 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
+    
   },
 };
 
